@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500;600&display=swap');
+
+:root {
+  --brand: #0D2240;
+  --gold: #E6A817;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: #F8F9FA;
+  color: #1a1a1a;
+}
+
+html, body, #__next {
+  height: 100%;
+}
