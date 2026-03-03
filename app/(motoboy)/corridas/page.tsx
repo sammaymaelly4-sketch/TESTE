@@ -117,8 +117,8 @@ export default function CorridasPage() {
 
   const badgeVariant: Record<string, any> = {
     aguardando: 'warning',
-    aceita: 'info',
-    em_rota: 'primary',
+    aceita: 'warning',
+    em_rota: 'default',
     entregue: 'success',
   }
 
